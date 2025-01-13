@@ -9,9 +9,9 @@ Stop juggling HDMI cables and cumbersome setups! Say goodbye to those hassles. p
 - Compatible with Raspberry Pi CM4 compute module both No-eMMC and eMMC* (pre-programmed) version
 - HDMI plug to connect with TV/Monitor screen directly 
 - Onboard TFcard support so easily connect your favourite compatible Operating System loaded micro SDcard.
-- Power and Activity Status LEDs
 - USB Type A to connect HID devices like keyboard, mouse, gaming remote, USB WiFi/Bluetooth dongle, USB Audio dongle, etc.
 - Type C for Power
+- Power and Activity Status LEDs
 - IR Receiver to configure and setup with TV remote control
 
 **_*Note:_ CM4 with eMMC type can be programmed using CM4 IO Board, and avoid using SDcard with eMMC type otherwise you will damage CM4 since both TFcard and eMMC pins shared.** 
@@ -19,9 +19,30 @@ Stop juggling HDMI cables and cumbersome setups! Say goodbye to those hassles. p
 ## Pinout: 
 <img src="https://cdn.shopify.com/s/files/1/1217/2104/files/2_49.png?v=1729244767" >
 
+**Note: CM4 not included default image only for reference.**
+
 ## Preparing and Installing OS for PiPocket
+- These steps only recommended for **no-eMMC version of CM4**
+- For this step we need following things :
+  - microSD card recommended size 32GB and above 
+  - microSD card Reader
+  - Raspberry Imager software, Download and install from [here](https://www.raspberrypi.com/software/)
+- Insert card reader along with sdcard to PC and open Raspberry Imager
+- Checkout document guide [here](https://github.com/sbcshop/PiPocket_Software/blob/main/Documents/Prepare%20OS%20for%20PiPocket%20CM4%20Compute%20Module.pdf) to install Specific OS which you are interested to try. You can choose between Raspbian OS, media OS like Kodi or gamming OS like Recalbox, etc.
+- By default USB port is disabled in few CM4 OS to save power, and PiPocket have two Multiplexed Type A for using keyboard, mouse and any other HID. You will have to enable, which can be done by editing the boot config file (/boot/config.txt). If already present then skip, this is known issue for gaming OS.
+  
+  <img src=https://github.com/sbcshop/PiPocket_Software/blob/main/images/config_edit.png width="730" height="431" >
 
-
+  Add following line to activate,
+  ```
+  dtoverlay=dwc2,dr_mode=host 
+  ```
+- Now, sdcard ready with OS installation so remove from PC and insert into PiPocket equipped with **CM4 no-eMMC**
+- **WARNING: DO NOT USE SDCARD IF CM4 IS eMMC VERSION, otherwise you will PERMANENTLY DAMAGE CM4 because EMMC SoC and SDCARD pins shared.**
+  
+## Resources: 
+- [CM4 Compute Module Datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf)
+- [eMMC based CM4 OS installation](https://www.raspberrypi.com/documentation/computers/compute-module.html#set-up-the-io-board) 
 
 ## Related Products  
 
