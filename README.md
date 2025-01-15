@@ -22,7 +22,9 @@ Stop juggling HDMI cables and cumbersome setups! Say goodbye to those hassles. p
 **Note: CM4 not included default image only for reference.**
 
 ## Preparing and Installing OS for PiPocket
-- These steps only recommended for **no-eMMC version of CM4**
+<img src="https://github.com/sbcshop/PiPocket_Software/blob/main/images/cm4_variants.png" width="" height="">
+
+### Steps Recommended for **no-eMMC version of CM4**
 - For this step we need following things :
   - microSD card recommended size 32GB and above 
   - microSD card Reader
@@ -37,8 +39,8 @@ Stop juggling HDMI cables and cumbersome setups! Say goodbye to those hassles. p
   ```
   dtoverlay=dwc2,dr_mode=host 
   ```
-- Now, sdcard ready with OS installation so remove from PC and insert into PiPocket equipped with **CM4 no-eMMC**
-- **WARNING: DO NOT USE SDCARD IF CM4 IS eMMC VERSION, otherwise you will PERMANENTLY DAMAGE CM4 because EMMC SoC and SDCARD pins shared.**
+- Now, sdcard ready with OS installation so remove from PC and insert into PiPocket equipped with **CM4 no-eMMC**.
+- **WARNING: DO NOT USE SDCARD IF CM4 IS eMMC VERSION, otherwise you will PERMANENTLY DAMAGE CM4 because eMMC SoC and SDCARD pins shared.**
   
 ## Resources: 
 - [CM4 Compute Module Datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf)
