@@ -39,13 +39,16 @@ Stop juggling HDMI cables and cumbersome setups! Say goodbye to those hassles. p
   ```
   dtoverlay=dwc2,dr_mode=host 
   ```
-- Now, sdcard ready with OS installation so remove from PC and insert into PiPocket equipped with **CM4 no-eMMC**.
+- Now, sdcard ready with OS installation so remove from PC and insert into PiPocket equipped with **CM4 no-eMMC**. Connect PiPocket to you HDMI screen along with keyboard & mouse and then power device using type C.
 - **WARNING: DO NOT USE SDCARD IF CM4 IS eMMC VERSION, otherwise you will PERMANENTLY DAMAGE CM4 because eMMC SoC and SDCARD pins shared.**
+
   
 ## Resources: 
-- [CM4 Compute Module Datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf)
-- [eMMC based CM4 OS installation](https://www.raspberrypi.com/documentation/computers/compute-module.html#set-up-the-io-board) 
-
+* [Schematic](https://github.com/sbcshop/StackyFi_Hardware/blob/main/Design%20Data/StackyFi%20SCH.pdf)
+* [Hardware Files](https://github.com/sbcshop/StackyFi_Hardware)
+* [Step File](https://github.com/sbcshop/StackyFi_Hardware/blob/main/Mechanical%20Data/StackyFi%20STEP.step)
+* [CM4 Compute Module Datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf)
+    
 ## Related Products  
 
   * [CM4 Compute Module IO Board](https://shop.sb-components.co.uk/products/compute-module-4-io-board-1)
