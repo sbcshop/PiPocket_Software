@@ -44,9 +44,9 @@ Stop juggling HDMI cables and cumbersome setups! Say goodbye to those hassles. p
 
   
 ## Resources: 
-* [Schematic](https://github.com/sbcshop/StackyFi_Hardware/blob/main/Design%20Data/StackyFi%20SCH.pdf)
-* [Hardware Files](https://github.com/sbcshop/StackyFi_Hardware)
-* [Step File](https://github.com/sbcshop/StackyFi_Hardware/blob/main/Mechanical%20Data/StackyFi%20STEP.step)
+* [Schematic](https://github.com/sbcshop/PiPocket_Hardware/blob/main/Design%20Data/Pipocket%20SCH.pdf)
+* [Hardware Files](https://github.com/sbcshop/PiPocket_Hardware)
+* [Step File](https://github.com/sbcshop/PiPocket_Hardware/blob/main/Mechanical%20Data/PiPocket%20STEP.step)
 * [CM4 Compute Module Datasheet](https://datasheets.raspberrypi.com/cm4/cm4-datasheet.pdf)
     
 ## Related Products  
