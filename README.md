@@ -39,8 +39,10 @@ Stop juggling HDMI cables and cumbersome setups! Say goodbye to those hassles. p
   ```
   dtoverlay=dwc2,dr_mode=host 
   ```
+- Some default config.txt pre-setup for various OS provided [here](https://github.com/sbcshop/PiPocket_Software/tree/main/Sample%20Config%20files) which you can use.
 - Now, sdcard ready with OS installation so remove from PC and insert into PiPocket equipped with **CM4 no-eMMC**. Connect PiPocket to you HDMI screen along with keyboard & mouse and then power device using type C.
 - **WARNING: DO NOT USE SDCARD IF CM4 IS eMMC VERSION, otherwise you will PERMANENTLY DAMAGE CM4 because eMMC SoC and SDCARD pins shared.**
+- To use IR Remote, you can checkout IR configuration and setting reference guide for [Bookworm Raspberry Pi OS](https://github.com/sbcshop/PiPocket_Software/blob/main/Documents/PiPocket%20IR%20setup%20For%20Bookworm%20OS.pdf) and [LibreELEC Media OS (Kodi)](https://github.com/sbcshop/PiPocket_Software/blob/main/Documents/PiPocket%20IR%20Setup%20for%20LibreELEC%20Media%20OS%20(KODI).pdf). 
 
   
 ## Resources: 
