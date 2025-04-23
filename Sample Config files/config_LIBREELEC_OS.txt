@@ -35,7 +35,7 @@ include distroconfig.txt
 #dtparam=audio=on
 #audio_pwm_mode=1
 
-# uncomment to enable infrared remote receiver connected to GPIO 18
+# uncomment to enable infrared remote receiver connected to GPIO 15
 dtoverlay=gpio-ir,gpio_pin=15
 
 # uncomment to enable USB
