@@ -1,9 +1,13 @@
 # PiPocket_Software
 
+<img src= "https://github.com/sbcshop/PiPocket_Software/blob/main/images/PiPocket_FeatureBanner.jpg" /> 
+
 Transform Your TV/monitor into a Smart Computer/Smart TV/Smart Gaming Console etc.
 
 Powered with Raspberry Pi Compute Module 4, a powerful and versatile computing solution in a compact form factor. Customize your PiPocket with different CM4 option selections like 2GB, 4GB or 8GB versions to make your go-to solution for high-performance computing in a compact and adaptable package.
 Stop juggling HDMI cables and cumbersome setups! Say goodbye to those hassles. piPocket plugs directly into the HDMI port of your TV or monitor, requiring only a USB-C power source. From streaming your favorite content on Netflix and Prime Video to enjoying music and exploring an array of operating systems like Raspberry Pi OS, Windows, Android, Ubuntu, Linux, and more, piPocket is your all-in-one smart solution.
+
+This github provides getting started and setup instructions to use PiPocket.
 
 ## Features:
 - Compatible with Raspberry Pi CM4 compute module both No-eMMC and eMMC* (pre-programmed) version
